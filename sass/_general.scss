@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+*::before,*::after{
+  display: inherit;
+}
+button{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+ul{
+  list-style-type: none;
+}
+input{
+  outline: none;
+} 

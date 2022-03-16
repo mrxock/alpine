@@ -1,0 +1,62 @@
+.digital-marketing {
+  width: 100%;
+  background-image: url(../img/bgi.jpg);
+  z-index: 5;
+  padding-bottom: 108px;
+}
+.digital-marketing_inner {
+  background: linear-gradient(180deg, #2D2828 0%,  #2D2828 49.48%, #2D2828 68.75%, #2D2828 82.29%, #2D2828 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.digital-marketing__imgs {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+ 
+
+}
+.digital-marketing__img:hover{
+  transform: translateY(-90px);
+  transition: 1s all ease;
+}
+// selector---------------------------
+.selector {
+  margin-top: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selector_title {
+  font-family: 'Paytone One';
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+.selector_img {
+  width: 266.52px;
+  height: 21px;
+  margin: 0 7px;
+}
+.selector_btn {
+  padding: 7px 16px 8px 16px;
+  border:none;
+  background: linear-gradient(180deg, #864A23 0%, #6A3A1B 100%);
+  border-radius: 20px;
+}
+.btn_span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+}
+.btn_span::before{
+  content: '';
+  margin-right: 7px;
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  background-image: url(../img/pen.png);
+  background-repeat: no-repeat;
+}

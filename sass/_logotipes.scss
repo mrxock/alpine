@@ -1,0 +1,49 @@
+.logotipes{
+  padding-left: 65px;
+  padding-right: 85px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logotipes__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offers__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+}
+.offer__item {
+  width: 268.09px;
+}
+.offer__imgs {
+  display: flex;
+  align-items: center;
+}
+.offer_img{
+  width: 89.7px;
+  height: 91.36px;
+}
+.offer_imgl{
+  width: 141.69px;
+  height: 32.85px;
+}
+.offer_imgla{
+  margin-left: 15px;
+  width: 105px;
+  height: 50.3px;
+}
+.offer_imglas{
+  width: 160px;
+  height: 51.33px;
+}
+
+.offer_text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #000000;
+}
